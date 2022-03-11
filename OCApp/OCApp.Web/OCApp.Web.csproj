@@ -13,4 +13,8 @@
     <PackageReference Include="OrchardCore.Application.Mvc.Targets" Version="1.2.2-preview-16385" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Feature1\Feature1.csproj" />
+  </ItemGroup>
+
 </Project>
